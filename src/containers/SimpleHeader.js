@@ -21,25 +21,25 @@ const HeaderDiv = styled.div`
   color: black;
 `
 
-class Header extends Component {
+class SimpleHeader extends Component {
   render() {
     return (
-      <HeaderDiv className="App-header">
+      <HeaderDiv className="App-header" style={{ height: '44px' }}>
+      {/*
         <Link to="/">
         <ProfileImage src={logo3} alt='Isaac's photo/>
         </Link>  
         <ProfileTitle className="App-title">KATONGOLE ISAAC</ProfileTitle>
-        
+      */}  
         <div className="topnav">
           <Link className="active" to='/'>Home</Link>
           <Link to='/content'>Portfolio</Link>
           <Link to='/contact'>Contact</Link>
         </div>
         <hr/>
-
       </HeaderDiv>
     );
   }
 }
 
-export default Header;
+export default SimpleHeader;

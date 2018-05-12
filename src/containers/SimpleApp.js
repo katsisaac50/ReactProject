@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import Header from './Header.js'
+import SimpleHeader from './SimpleHeader.js'
 import Footer from './Footer.js'
 
 export const ColorScheme = {
@@ -34,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <AppDiv>
-        <Header />
+        <SimpleHeader />
         <ContainerDiv>
           {this.props.children}
         </ContainerDiv>

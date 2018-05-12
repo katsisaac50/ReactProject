@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import SimpleHeader from './SimpleHeader';
 
 import { ColorScheme } from "../theme/styleConstants";
 export const PortButton = styled.a`
@@ -27,34 +28,34 @@ export const PortButton = styled.a`
 class Code extends Component {
     render() {
       return (
-        <div>
-            <h2 className='littleHeading'>Skills:</h2>
-              <div className='wrapper'>
-               <div className='grid'>
-                <h5>Front-end:</h5>
-                <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>React</li>
-                  <li>JavaScript (ES6)</li>
-                  <li>jQuery</li>
-                  <li>AJAX</li>
-                </ul>
-              </div>
-              <div className='grid'>
-                <h5>Back-end:</h5>
-                <ul>
-                  <li>Node.js</li>
-                  <li>Express</li>
-                  <li>MySQL</li>
-                </ul>
-              </div>
-          <hr />
-          </div>
-        </div>
+          <div>
+              <h2 className='littleHeading'>Skills:</h2>
+                <div className='wrapper'>
+                <div className='grid'>
+                  <h5>Front-end:</h5>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>React</li>
+                    <li>JavaScript (ES6)</li>
+                    <li>jQuery</li>
+                    <li>AJAX</li>
+                  </ul>
+                </div>
+                <div className='grid'>
+                  <h5>Back-end:</h5>
+                  <ul>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>MySQL</li>
+                  </ul>
+                </div>
+            <hr />
+            </div>
+          </div> 
       );
     }
   }
- 
+
 
 export default Code;
