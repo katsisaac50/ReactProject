@@ -36,18 +36,18 @@ class Footer extends Component {
             <div className="row social" style={{ margin: 0 }}>
               <div className="col-lg-12">
                 <SocialIconList>
-                  <SocialIcon><a href="mailto:jfaulstick@gmail.com" target="_blank" rel="noopener noreferrer"><FAIcon className="fa fa-envelope fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="https://www.linkedin.com/in/joseph-faulstick/" target="_blank" rel="noopener noreferrer"><FAIcon className="fa fa-linkedin fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="https://github.com/jfaulstick" target="_blank" rel="noopener noreferrer"><FAIcon className="fa fa-github fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="https://medium.com/@josephfaulstick/latest" target="_blank" rel="noopener noreferrer"><FAIcon className="fa fa-medium fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="https://twitter.com/joefaulstick" target="_blank" rel="noopener noreferrer"><FAIcon className="fa fa-twitter fa-fw fa-2x" /></a></SocialIcon>
+                  <SocialIcon><a href="mailto:katsisaac50@gmail.com" target="_blank" rel="noopener noreferrer"><FAIcon className="fa fa-envelope fa-fw fa-2x" /></a></SocialIcon>
+                  <SocialIcon><a href="https://www.linkedin.com/in/kats-isaac50/" target="_blank" rel="noopener noreferrer"><FAIcon className="fa fa-linkedin fa-fw fa-2x" /></a></SocialIcon>
+                  <SocialIcon><a href="https://github.com/katsisaac50" target="_blank" rel="noopener noreferrer"><FAIcon className="fa fa-github fa-fw fa-2x" /></a></SocialIcon>
+                  <SocialIcon><a href="https://medium.com/@katsisaac50/latest" target="_blank" rel="noopener noreferrer"><FAIcon className="fa fa-medium fa-fw fa-2x" /></a></SocialIcon>
+                  <SocialIcon><a href="https://twitter.com/katsisaac50" target="_blank" rel="noopener noreferrer"><FAIcon className="fa fa-twitter fa-fw fa-2x" /></a></SocialIcon>
                 </SocialIconList>
                 <br />
               </div>
             </div>
             <div className="row" id="copyright" style={{ margin: 0 }}>
               <div className="col-lg-12">
-                <p className="small">© 2018 Joe Faulstick</p>
+                <p className="small">© 2018 Katongole</p>
               </div>
             </div>
       </FooterDiv>

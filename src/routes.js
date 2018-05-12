@@ -1,17 +1,17 @@
 import React from 'react';
 import { IndexRoute, Router, Route, hashHistory } from 'react-router';
 
-import Header from './App'
-import Home from './Home'
-import Content from './content'
-/*import Contact from './Contact'*/
+import App from './containers/App'
+import Home from './containers/Home'
+import Code from './containers/Code'
+import Contact from './containers/Contact'
 
 export default (
     <Router history={hashHistory}>
-      <Route path='/' component={Header}>
+      <Route path='/' component={App}>
         <IndexRoute component={Home}/>
-        <Route path='/content' component={Content} />
-        { /* <Route path='/contact' component={Contact} />*/}
+        <Route path='/content' component={Code} />
+        <Route path='/contact' component={Contact} />
       </Route>
     </Router>
 
