@@ -27,10 +27,14 @@ export const PortButton = styled.a`
 
 class Code extends Component {
 
-
-
     renderFrontendSkills = () => {
       let skills=['HTML5','CSS3','React','Javascript','jQuery','AJAX'] 
+
+      return skills.map((skill) => <li>{skill}</li>)
+    }
+
+    renderBackSkills = () => {
+      let skills=[ 'Node.js','Express','MySQL'] 
 
       return skills.map((skill) => <li>{skill}</li>)
     }
@@ -49,9 +53,7 @@ class Code extends Component {
                 <div className='grid'>
                   <h5>Back-end:</h5>
                   <ul>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>MySQL</li>
+                  {this.renderBackSkills()} 
                   </ul>
                 </div>
             <hr />
