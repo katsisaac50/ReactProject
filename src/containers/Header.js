@@ -20,7 +20,6 @@ const HeaderDiv = styled.div`
   font-family: 'Zilla Slab Highlight', sans-serif;
   color: black;
 `
-
 class Header extends Component {
   render() {
     return (

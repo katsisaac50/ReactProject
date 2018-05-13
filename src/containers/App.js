@@ -25,7 +25,7 @@ export const CenteredHeader = styled.h4`
 
 
 const ContainerDiv = styled.div`
-  margin: 1% 10% 3% 1%;
+  margin: 1% 10% 3% 7%;
   flex: 1;
   font-family: 'Open Sans', sans-serif;
 `
